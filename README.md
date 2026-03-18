@@ -2,6 +2,8 @@
 
 Русские игровые фразы для спиннера Claude Code. Вместо стандартных сообщений при работе Claude показывает культовые реплики из игр — Warcraft, StarCraft, Dark Souls, Factorio, S.T.A.L.K.E.R., Skyrim и других.
 
+![Screenshot](screenshot.png)
+
 ## Установка
 
 Скопируйте промпт ниже и вставьте в Claude Code:
