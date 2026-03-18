@@ -7,7 +7,12 @@
 Скопируйте промпт ниже и вставьте в Claude Code:
 
 ```
-Скачай файл https://raw.githubusercontent.com/max-prtsr/claude-ru-gaming/master/settings.json и добавь из него блок spinnerVerbs в мои настройки ~/.claude/settings.json. Если spinnerVerbs уже есть — замени. Остальные настройки не трогай.
+Скачай файл:
+https://raw.githubusercontent.com/max-prtsr/claude-ru-gaming/master/settings.json
+
+Добавь из него блок spinnerVerbs в мои настройки ~/.claude/settings.json.
+Если spinnerVerbs уже есть — замени.
+Остальные настройки не трогай.
 ```
 
 ## Пример
