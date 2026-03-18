@@ -2,47 +2,13 @@
 
 Русские игровые фразы для спиннера Claude Code. Вместо стандартных сообщений при работе Claude показывает культовые реплики из игр — Warcraft, StarCraft, Dark Souls, Factorio, S.T.A.L.K.E.R., Skyrim и других.
 
-![Demo](demo.gif)
-
 ## Установка
 
-### Вариант 1: Однострочник (рекомендуется)
+Скопируйте промпт ниже и вставьте в Claude Code:
 
-```bash
-cat ~/.claude/settings.json | jq -s '.[0] * .[1]' - <(curl -s https://raw.githubusercontent.com/max-prtsr/claude-ru-gaming/master/settings.json) > /tmp/merged.json && mv /tmp/merged.json ~/.claude/settings.json
 ```
-
-### Вариант 2: Вручную
-
-1. Откройте настройки Claude Code:
-
-```bash
-# Глобальные (для всех проектов)
-~/.claude/settings.json
-
-# Или только для проекта
-.claude/settings.json
+Скачай файл https://raw.githubusercontent.com/max-prtsr/claude-ru-gaming/master/settings.json и добавь из него блок spinnerVerbs в мои настройки ~/.claude/settings.json. Если spinnerVerbs уже есть — замени. Остальные настройки не трогай.
 ```
-
-2. Добавьте блок `spinnerVerbs`:
-
-```json
-{
-  "spinnerVerbs": {
-    "mode": "replace",
-    "verbs": [
-      "Нужно больше золота",
-      "Зуг-зуг",
-      "Требуются дополнительные пилоны",
-      "..."
-    ]
-  }
-}
-```
-
-Полный список фраз — в [settings.json](settings.json).
-
-> `"mode": "replace"` — заменяет стандартные фразы. Если хотите добавить к стандартным — используйте `"mode": "append"`.
 
 ## Пример
 
